@@ -48,4 +48,7 @@ exit 0
    - ```update-rc.d vncboot defaults```
 
 ## ALFA Wifi Card
-   - 
+   - ```iwconfig``` => wlan1 (Mode:Managed)
+   - ```ifconfig wlan1 down```
+   - ```airmon-ng start wlan1```
+   - ```iwconfig``` => wlan1mon
